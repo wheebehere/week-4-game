@@ -10,19 +10,25 @@
 <body>
 	<div id="ccHeading">
 		<h1>CrystalsCollector!</h1>
-		<div id="ccInstructions"></div>
-			<p>You will be given a random number at the start of the game.</p>
-			<p></p>
-			<p>There are four crstals below. By clicking on a crstal you will add a specific amount of points to your total score.</p>
-			<p></p>
-			<p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
-			<p></p>
-			<p>The value of each crystal is hidden from you until you click on it.</p>
-			<p></p>
-			<p>Each time when the game starts, the game will change the values of each crystal.</p>
-			<p></p>
+		<div id="ccInstructions">
+			You will be given a random number at the start of the game.
+
+			
+			There are four crystals below. By clicking on a crstal you will add a specific amount of points to your total score.
+
+			
+			You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
+			
+			
+			The value of each crystal is hidden from you until you click on it.
+			
+			
+			Each time when the game starts, the game will change the values of each crystal.
+		</div>
+			
 		<div id="randomNumberBox"></div>
-		<div id="scoreBox"></div>
+		<div id="scoreBoxWins"></div>
+		<div id="scoreBoxLosses"></div>
 		<div id="buttons">
 			<button id="crystalOne"></button>
 			<button id="crystalTwo"></button>
@@ -33,7 +39,7 @@
 			<p>Your total score is:</p>
 		<div id="totalScoreBox"></div>
 	</div>
-
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
 	<script type="text/javascript" src="..\week-4-game\assets\javascript\game.js"></script>
 
 </body>
